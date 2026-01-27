@@ -219,8 +219,8 @@ Type:  1-handed
 Requires: 5 Strength
 Not Usable By:
  Non-thieves~
-@38 = ~Siegfried’s Scorching Supplication~
-@39 = ~Siegfried’s Scorching Supplication(Invocation) 
+@38 = ~Siegfried's Scorching Supplication~
+@39 = ~Siegfried's Scorching Supplication(Invocation) 
 Level: 4
 Range: Visual range of caster
 Duration: Instant 

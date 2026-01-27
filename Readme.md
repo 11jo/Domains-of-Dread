@@ -1,10 +1,21 @@
 # Domains of Dread
 
-![Language](https://img.shields.io/static/v1?label=language&message=english%20%7C%20french%20%7C%20german%20%7C%20italian%20%7C%20russian%20%7C%20&color=informational)
+[![Release](https://img.shields.io/github/v/release/The-Gate-Project/Domains-of-Dread?include_prereleases&color=41788a)](https://github.com/The-Gate-Project/Domains-of-Dread/releases)
+[![Published](https://img.shields.io/github/release-date-pre/The-Gate-Project/Domains-of-Dread?display_date=published_at&label=published&color=014a69)](https://github.com/The-Gate-Project/Domains-of-Dread/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/The-Gate-Project/Domains-of-Dread/total?color=41788a)](https://github.com/The-Gate-Project/Domains-of-Dread/releases)
+
+[![Language](https://img.shields.io/badge/language-%20%7C%20french%20%7C%20german%20%7C%20italian%20%7C%20russian%20%7C%20-014a69)](https://github.com/The-Gate-Project/Domains-of-Dread/releases)
+[![Games](https://img.shields.io/badge/games-BG1%20%a0%20BGEE%20%a0%20BGT%20%a0%20EET-41788a)](https://github.com/The-Gate-Project/Domains-of-Dread/releases)
+
+<!--
+
+![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FThe-Gate-Project%2FDomains-of-Dread&countColor=41788a&style=flat)
+
+[![Platform](https://img.shields.io/badge/platform-Windows%20%a0%20macOS%20%a0%20Linux%20%a0%20Project%20Infinity-014a69)](https://github.com/The-Gate-Project/Domains-of-Dread/releases)
+-->
 
 **Autor** : ****
 
-[Link to original Mod Forum]()
 
 [Link to original Mod Download](http://www.shsforums.net/files/file/135-domains-of-dread/)
 

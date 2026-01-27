@@ -185,7 +185,7 @@ COPY ~DofD/Cre/demClva.cre~        ~override/demClva.cre~
   SAY NAME1 @49
   SAY NAME2 @49
   WRITE_ASCII 0x260 ~demClva~ (8) // General cript
-  WRITE_ASCII 0x280 ~demClva~ (8) // Script name / Death variable
+  WRITE_ASCII 0x280 ~demClva~ (32) // Script name / Death variable
 
 COPY ~DofD/Cre/demdark.cre~         ~override/demdark.cre~
   SAY NAME1 @50
@@ -232,7 +232,7 @@ COPY ~DofD/Cre/demMava.cre~         ~override/demMava.cre~
   SAY NAME1 @58
   SAY NAME2 @58
   WRITE_ASCII 0x260 ~demMava~ (8) // General cript
-  WRITE_ASCII 0x280 ~demMava~ (8) // Script name / Death variable
+  WRITE_ASCII 0x280 ~demMava~ (32) // Script name / Death variable
 
 
 PRINT @59
@@ -243,6 +243,10 @@ PRINT @60
 
 EXTEND_TOP ~ar0700.bcs~                 ~DofD/BAF/Ar0700.BAF~
 EXTEND_TOP ~ar0702.bcs~                 ~DofD/BAF/Ar0702.BAF~
+
+ACTION_IF NOT GAME_IS ~bg2ee eet~ BEGIN
+EXTEND_TOP ~ar0702.bcs~                 ~DofD/BAF/Ar0702_wmart2.BAF~
+	END
 
 COMPILE ~DofD/Scripts~
 
@@ -257,25 +261,3 @@ REQUIRE_COMPONENT ~Setup-DofD.tp2~ ~0~ @101
 
 COPY_EXISTING ~dementy.cre~         ~override/dementy.cre~
   WRITE_ASCII 0x248 ~Demdud~ (8) // Override script
-
-// COMPILE ~DofD/Addition/DEMAdd.d~
-
-
-// Note : Something I don't really understand and that could create issue in other cases....
-
-/* If Demdud.baf compiled in second componant, wrong encodage arise for @11 (demdud.tra...) So Demdud.baf compiled in main componant and activated by applying Override script Demdud to Demdud.cre */
-
-/* Alternative is to use the streff with setup.tra */
-
-/* ...It's related to AUTO_TRA... */
-
-/*
-
-COPY_EXISTING ~dementy.cre~         ~override/dementy.cre~
-  WRITE_ASCII 0x248 ~DEMDUD2~ (8) // Override script
-
-COMPILE ~DofD/Addition/DEMAdd.d~
-
-COMPILE ~DofD/Addition/DEMDUD2.baf~
-
-*/
